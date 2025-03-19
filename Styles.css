@@ -31,11 +31,24 @@ img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border: 3px solid #1565c0;
+    border: 3px solid #3d4141;
     margin-right: 20px;
 }
 
+.kontak {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 10px 15px; 
+    align-items: center; 
+}
+
 .icon {
-    width: 24px;  /* Sesuaikan ukuran lebar */
-    height: 24px; /* Sesuaikan ukuran tinggi */
+    width: 24px; 
+    height: 24px;
+    border: none; 
+}
+
+a {
+    text-decoration: none; 
+    color: inherit; 
 }
