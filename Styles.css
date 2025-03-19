@@ -35,6 +35,19 @@ img {
     margin-right: 20px;
 }
 
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.university-logo {
+    width: 100px; /* Sesuaikan ukuran logo */
+    height: auto;
+    margin-left: 10px; /* Jarak antara nama dan logo */
+    vertical-align: middle; /* Pastikan logo sejajar dengan teks */
+    border: none;
+}
+
 .kontak {
     display: grid;
     grid-template-columns: auto 1fr; 
