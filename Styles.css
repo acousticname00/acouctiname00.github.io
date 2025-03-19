@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #e3f2fd;
+}
+div {
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1, h2 {
+    color: #1565c0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #1565c0;
+    margin-right: 20px;
+}
+
+.icon {
+    width: 24px;  /* Sesuaikan ukuran lebar */
+    height: 24px; /* Sesuaikan ukuran tinggi */
+}
